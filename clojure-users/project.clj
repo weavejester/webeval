@@ -1,12 +1,10 @@
 (defproject example "0.1.0-SNAPSHOT"
   :description "FIXME: write description"
   :dependencies [[org.clojure/clojure "1.8.0"]
-                 [metosin/compojure-api "1.2.0-alpha5"]
-                 [ring "1.6.0"]
+                 [metosin/compojure-api "1.2.0-alpha6"]
+                 [ring "1.6.1"]
                  [compojure "1.6.0"]
                  [manifold "0.1.6"]
-                 [http-kit "2.2.0"]
-                 [hikari-cp "1.7.5"]
                  [org.clojure/core.async "0.3.442"]
                  [alaisi/postgres.async "0.8.0"]
                  [http.async.client "1.2.0"]
